@@ -1,13 +1,13 @@
 defaults:
 
-  logdir: ~/logdir/{timestamp}
+  logdir: ./logs/{timestamp}
   replica: 0
   replicas: 1
   method: name
   task: dummy_disc
   seed: 0
   script: train
-  batch_size: 16
+  batch_size: 1
   batch_length: 64
   report_length: 32
   consec_train: 1
@@ -46,7 +46,7 @@ defaults:
     chunksize: 1024
 
   run:
-    steps: 1e10
+    steps: 1e6
     duration: 0
     train_ratio: 32.0
     log_every: 120

@@ -1,0 +1,53 @@
+
+==============NVSMI LOG==============
+
+Timestamp                                 : Thu Jul 17 13:50:32 2025
+Driver Version                            : 550.54.15
+CUDA Version                              : 12.4
+
+Attached GPUs                             : 1
+GPU 00000000:00:04.0
+    Utilization
+        Gpu                               : 100 %
+        Memory                            : 49 %
+        Encoder                           : 0 %
+        Decoder                           : 0 %
+        JPEG                              : 0 %
+        OFA                               : 0 %
+    GPU Utilization Samples
+        Duration                          : 14.15 sec
+        Number of Samples                 : 71
+        Max                               : 100 %
+        Min                               : 94 %
+        Avg                               : 98 %
+    Memory Utilization Samples
+        Duration                          : 14.15 sec
+        Number of Samples                 : 71
+        Max                               : 100 %
+        Min                               : 25 %
+        Avg                               : 63 %
+    ENC Utilization Samples
+        Duration                          : 14.15 sec
+        Number of Samples                 : 71
+        Max                               : 0 %
+        Min                               : 0 %
+        Avg                               : 0 %
+    DEC Utilization Samples
+        Duration                          : 14.15 sec
+        Number of Samples                 : 71
+        Max                               : 0 %
+        Min                               : 0 %
+        Avg                               : 0 %
+    JPG Utilization Samples
+        Duration                          : 14.15 sec
+        Number of Samples                 : 71
+        Max                               : 0 %
+        Min                               : 0 %
+        Avg                               : 0 %
+    OFA Utilization Samples
+        Duration                          : 14.15 sec
+        Number of Samples                 : 71
+        Max                               : 0 %
+        Min                               : 0 %
+        Avg                               : 0 %
+
